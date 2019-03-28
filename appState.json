@@ -1,0 +1,77 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "4dca7342-d7b1-4fe8-b570-40804e108609": {
+        "id": "4dca7342-d7b1-4fe8-b570-40804e108609",
+        "parent": null,
+        "name": "CommitTest",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "aaf604fd-93a0-4348-8531-84b01b82587e"
+        ],
+        "isRemovable": false,
+        "filePath": "CommitTest"
+      },
+      "aaf604fd-93a0-4348-8531-84b01b82587e": {
+        "id": "aaf604fd-93a0-4348-8531-84b01b82587e",
+        "parent": "4dca7342-d7b1-4fe8-b570-40804e108609",
+        "name": "lambda.js",
+        "type": "LAMBDA_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "CommitTest/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "triggers": [],
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        }
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "4dca7342-d7b1-4fe8-b570-40804e108609",
+    "openFiles": [
+      "aaf604fd-93a0-4348-8531-84b01b82587e"
+    ],
+    "currentFileId": "aaf604fd-93a0-4348-8531-84b01b82587e",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": {}
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "CommitTest",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1553765566818
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "CommitTest",
+      "url": "https://github.com/sigmaidetest/CommitTest"
+    }
+  }
+}
