@@ -8,7 +8,8 @@
         "type": "DIRECTORY",
         "isDirectory": true,
         "children": [
-          "aaf604fd-93a0-4348-8531-84b01b82587e"
+          "aaf604fd-93a0-4348-8531-84b01b82587e",
+          "d0f34d03-94be-46b8-be87-5d1da4c29cc0"
         ],
         "isRemovable": false,
         "filePath": "CommitTest"
@@ -31,6 +32,16 @@
           "memory": 128,
           "layers": []
         }
+      },
+      "d0f34d03-94be-46b8-be87-5d1da4c29cc0": {
+        "id": "d0f34d03-94be-46b8-be87-5d1da4c29cc0",
+        "parent": "4dca7342-d7b1-4fe8-b570-40804e108609",
+        "name": "sub1",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "CommitTest/sub1"
       }
     },
     "deletedFiles": [],
@@ -65,7 +76,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1553765566818
+    "lastSave": 1553765590706
   },
   "VCS_STATE": {
     "provider": "GitHub",
