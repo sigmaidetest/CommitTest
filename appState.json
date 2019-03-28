@@ -9,7 +9,8 @@
         "isDirectory": true,
         "children": [
           "aaf604fd-93a0-4348-8531-84b01b82587e",
-          "d0f34d03-94be-46b8-be87-5d1da4c29cc0"
+          "d0f34d03-94be-46b8-be87-5d1da4c29cc0",
+          "5e4ed591-83cb-4bcb-8886-a40db891027c"
         ],
         "isRemovable": false,
         "filePath": "CommitTest"
@@ -42,6 +43,28 @@
         "children": [],
         "isRemovable": true,
         "filePath": "CommitTest/sub1"
+      },
+      "5e4ed591-83cb-4bcb-8886-a40db891027c": {
+        "id": "5e4ed591-83cb-4bcb-8886-a40db891027c",
+        "parent": "4dca7342-d7b1-4fe8-b570-40804e108609",
+        "name": "sub2",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "6188659d-313d-415e-9602-dd2217022e97"
+        ],
+        "isRemovable": true,
+        "filePath": "CommitTest/sub2"
+      },
+      "6188659d-313d-415e-9602-dd2217022e97": {
+        "id": "6188659d-313d-415e-9602-dd2217022e97",
+        "parent": "5e4ed591-83cb-4bcb-8886-a40db891027c",
+        "name": "sub3",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "CommitTest/sub2/sub3"
       }
     },
     "deletedFiles": [],
@@ -76,7 +99,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1553765590706
+    "lastSave": 1553765613885
   },
   "VCS_STATE": {
     "provider": "GitHub",
